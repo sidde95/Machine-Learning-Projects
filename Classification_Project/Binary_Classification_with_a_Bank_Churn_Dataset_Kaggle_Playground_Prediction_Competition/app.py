@@ -3,11 +3,13 @@ import pandas as pd
 import numpy as np
 import pickle
 
+with open('model.pkl', 'rb') as file:
+    model = pickle.load(file)
+
 with open('preprocessing.pkl', 'rb') as file:
     preprocessing = pickle.load(file)
 
-with open('model.pkl', 'rb') as file:
-    model = pickle.load(file)
+
 
 
 st.set_page_config(page_title = "Bank Churn Prediction", layout = "centered")
