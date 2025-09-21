@@ -1,4 +1,6 @@
-#  Bank Churn Prediction using Hyperparameter-Tuned XGBoost
+#  Bank Churn Prediction – End-to-End ML Project with Deployment
+
+**Deployed on Streamlit:** [View Live App](https://machine-learning-projects-6tljtyjhucttnoetvpwsf7.streamlit.app/)
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0.24-orange?logo=scikitlearn)](https://scikit-learn.org/)
@@ -97,11 +99,11 @@ id,Exited
 
 ## Key Takeaways
 
-1. Business Priority: Maximizing recall reduces missed churners → aligns with retention strategy
-2. Model Choice: XGBoost slightly outperforms Gradient Boost in recall and F1-score
-3. Data Preprocessing: One-Hot Encoding + StandardScaler ensures feature consistency and improved model performance
-4. Hyperparameter Tuning: GridSearchCV fine-tuned model parameters to optimize ROC-AUC and recall
-5. Practical Insight: Model can help bank target at-risk customers effectively without significant false positives
+1. Business priority of maximizing recall ensures that potential churners are not missed
+2. XGBoost outperforms other models for this classification task
+3. Preprocessing (OHE + StandardScaler) ensures model consistency
+4. Hyperparameter tuning improves model metrics (especially ROC-AUC and recall)
+5. Deployment on Streamlit allows interactive, real-time predictions
 
 ## Technologies & Libraries Used
 **Programming Language:** Python 3.10
@@ -113,3 +115,4 @@ id,Exited
 - **scikit-learn** – preprocessing, model selection, and evaluation  
 - **xgboost** – XGBoost classifier for modeling  
 - **matplotlib** & **seaborn** – data visualization
+- **streamlit** - Web app deployment
