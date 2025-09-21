@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-with open('Bank_Churn_Dataset/model.pkl', 'rb') as file:
+with open('Classification_Project/Bank_Churn_Dataset/model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 with open('preprocessing.pkl', 'rb') as file:
