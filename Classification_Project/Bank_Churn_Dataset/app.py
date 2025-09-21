@@ -6,7 +6,7 @@ import pickle
 with open('Classification_Project/Bank_Churn_Dataset/model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-with open('preprocessing.pkl', 'rb') as file:
+with open('Classification_Project/Bank_Churn_Dataset/preprocessing.pkl', 'rb') as file:
     preprocessing = pickle.load(file)
 
 
