@@ -4,19 +4,10 @@ pandas
 numpy
 matplotlib
 seaborn
-statsmodels
-flask
-nltk
-gensim
-tqdm
-bs4
 lxml
 xgboost
 imbalanced-learn
-tensorboard
 streamlit
-keras
-scikeras
 nltk
 
 
