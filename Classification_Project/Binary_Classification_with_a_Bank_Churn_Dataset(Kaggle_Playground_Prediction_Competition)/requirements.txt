@@ -13,7 +13,6 @@ bs4
 lxml
 xgboost
 imbalanced-learn
-tensorflow==2.15.0
 tensorboard
 streamlit
 keras
