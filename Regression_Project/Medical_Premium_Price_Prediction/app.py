@@ -3,10 +3,10 @@ import pickle
 import numpy as np
 
 # Load saved model
-with open("Machine-Learning-Projects/Regression_Project/best_rf_model.pkl", "rb") as f:
+with open("Regression_Project/Medical_Premium_Price_Prediction/best_rf_model.pkl", "rb") as f:
     model = pickle.load(f)
 
-with open("Machine-Learning-Projects/Regression_Project/scaler.pkl", "rb") as f:
+with open("Regression_Project/Medical_Premium_Price_Prediction/scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 st.set_page_config(page_title="Insurance Premium Prediction", layout="centered")
