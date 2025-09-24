@@ -3,12 +3,15 @@ import pickle
 import numpy as np
 
 # Load saved model
-with open("best_rf_model.pkl", "rb") as f:
+with open("Machine-Learning-Projects/Regression_Project/best_rf_model.pkl", "rb") as f:
     model = pickle.load(f)
+
+with open("Machine-Learning-Projects/Regression_Project/scaler.pkl", "rb") as f:
+    scaler = pickle.load(f)
 
 st.set_page_config(page_title="Insurance Premium Prediction", layout="centered")
 
-st.title("💡 Insurance Premium Prediction App")
+st.title("Insurance Premium Prediction App")
 st.write("Enter health and personal details below to estimate insurance premium.")
 
 # Collect user input
@@ -27,7 +30,10 @@ surgeries = st.number_input("Number of Major Surgeries", min_value=0, max_value=
 input_data = np.array([[age, diabetes, blood_pressure, transplants, chronic,
                         height, weight, allergies, cancer_history, surgeries]])
 
+# Scale the input
+input_data_scaled = scaler.transform(input_data)
+
 # Prediction button
 if st.button("Predict Premium Price"):
-    prediction = model.predict(input_data)[0]
-    st.success(f"💰 Estimated Insurance Premium: **₹ {prediction:,.2f}**")
+    prediction = model.predict(input_data_scaled)[0]
+    st.success(f"Estimated Insurance Premium: **₹ {prediction:,.2f}**")
