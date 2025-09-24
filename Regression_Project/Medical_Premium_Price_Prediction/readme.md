@@ -1,7 +1,10 @@
 # Medical Premium Price Prediction – End-to-End ML Project with Deployment
-**Deployed on Streamlit:** [View Live App](#)
+**Deployed on Streamlit:** [View Live App](https://eypinpufskq3cgazelhayf.streamlit.app/)
 
-Python | Scikit-Learn | Random Forest
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0.24-orange?logo=scikitlearn)](https://scikit-learn.org/)
+[![Random Forest](https://img.shields.io/badge/Random%20Forest-Scikit--Learn-blue?logo=scikit-learn)](https://scikit-learn.org/stable/modules/ensemble.html#random-forests)
+
 
 ---
 
