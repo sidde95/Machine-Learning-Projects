@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load saved model
-with open('best_rf_model.pkl', "rb") as f:
+with open('Regression_Project/Medical_Premium_Price_Prediction/best_model.pkl', "rb") as f:
     model = pickle.load(f)
 
 with open('Regression_Project/Medical_Premium_Price_Prediction/scaler.pkl', "rb") as f:
