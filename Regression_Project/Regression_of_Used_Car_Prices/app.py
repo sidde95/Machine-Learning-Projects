@@ -6,10 +6,10 @@ import numpy as np
 # ---------------------------
 # Load preprocessing & model
 # ---------------------------
-with open("Regression_Project/Regression of Used Car Prices/preprocessing.pkl", "rb") as f:
+with open("Regression_Project/Regression_of_Used_Car_Prices/preprocessing.pkl", "rb") as f:
     preprocessing = pickle.load(f)
 
-with open("Regression_Project/Regression of Used Car Prices/model.pkl", "rb") as f:
+with open("Regression_Project/Regression_of_Used_Car_Prices/model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # ---------------------------
