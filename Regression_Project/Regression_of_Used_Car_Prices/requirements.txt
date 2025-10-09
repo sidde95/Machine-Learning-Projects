@@ -1,11 +1,11 @@
 ipykernel
-scikit-learn==1.2.2
+scikit-learn
 pandas
 numpy
 matplotlib
 seaborn
 lxml
-xgboost
+xgboosts
 imbalanced-learn
 streamlit
 nltk
