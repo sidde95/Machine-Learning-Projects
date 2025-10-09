@@ -29,7 +29,7 @@ with col1:
     brand = st.text_input("Car Brand", placeholder="e.g., Toyota, Maruti, BMW")
     model_year = st.number_input("Model Year", min_value=1990, max_value=2025, value=2015)
     milage = st.number_input("Mileage (in km/l)", min_value=0.0, max_value=50.0, value=15.0)
-    fuel_type = st.selectbox("Fuel Type", ["Petrol", "Diesel", "CNG", "LPG", "Electric"])
+    fuel_type = st.selectbox("Fuel Type", ['Gasoline', 'Hybrid', 'Diesel'])
 
 with col2:
     transmission = st.selectbox("Transmission Type", ["Manual", "Automatic"])
