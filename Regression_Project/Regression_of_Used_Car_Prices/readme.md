@@ -112,7 +112,22 @@ Performed using **GridSearchCV** (5-fold cross-validation).
 | **RMSE** | ~1.02         | ~1.08             |
 | **R²**   | ~0.93         | ~0.91             |
 
+
+Predictions
+
+In the Streamlit app, users can enter:
+
+- Year of Manufacture
+- Present Price (in lakhs)
+- Kilometers Driven
+- Fuel Type
+- Transmission Type
+- Number of Previous Owners
+
+After preprocessing, the trained model predicts the estimated selling price in seconds.
+
 ---
+
 ## Key Takeaways
 
 - Random Forest achieved the best performance overall
@@ -120,7 +135,7 @@ Performed using **GridSearchCV** (5-fold cross-validation).
 - Proper feature encoding and scaling improve accuracy and stability
 - Streamlit deployment makes predictions accessible to end users interactively
 
---
+---
 
 ## Technologies & Libraries Used
 
