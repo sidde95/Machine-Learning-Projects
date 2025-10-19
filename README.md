@@ -9,12 +9,14 @@ This repository contains **end-to-end ML projects**, including **data preprocess
 
 ### Classification Projects
 1. **Bank Churn Prediction**  
+
    Predict whether a bank customer will churn using historical customer data.  
    - Models: Logistic Regression, Decision Tree, Random Forest, Gradient Boost, XGBoost  
    - Deployment: Streamlit  
    - [Project Link](Classification_Project/Bank_Churn_Dataset)
 
-2. **Rainfall Prediction**
+3. **Rainfall Prediction**
+
    Predict the chances of rainfall using meteorological features such as temperature, pressure, humidity, wind speed and cloud cover
    - Models: Gradient Boost, Logistic Regression, XGBoost, Random Forest, AdaBoost, KNN, Decision Tree
    - Deployment: Streamlit
@@ -22,12 +24,14 @@ This repository contains **end-to-end ML projects**, including **data preprocess
 
 ### Regression Projects
 1. **Medical Premium Price Prediction**  
+
    Predict insurance premium costs based on demographic and medical history.  
    - Models: Linear Regression, Decision Tree, Random Forest  
    - Deployment: Streamlit  
    - [Project Link](Regression_Project/Medical_Premium_Price_Prediction)
 
-2. **Used Car Price Prediction**
+3. **Used Car Price Prediction**
+
    Predict the selling price of used cars using features such as brand, manufacturing year, kilometers driven, fuel type, transmission, and ownership details.
    - Models: Linear Regression, Lasso Regression, Ridge Regression, LassoCV Regression, RidgeCV Regression, ElasticNet Regression, ElasticNetCV Regression, KNN Regression, Decision Tree Regression, Random Forest Regression, AdaBoost Regression, Gradient Boost Regression, XGB Regression
    - Deployemnt: Streamlit
