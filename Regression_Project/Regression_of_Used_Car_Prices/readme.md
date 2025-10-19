@@ -28,9 +28,9 @@ The model provides a **data-driven estimate of used car prices**, helping both b
 ---
 
 ## Dataset  
-- **Source:** Used car dataset (as used in the notebook)  
-- **Rows:** ~3,000 (approx.)  
-- **Columns:** 8 features + target variable (Selling Price)
+- **Source:**   [Kaggle Playground Series S4E9](https://www.kaggle.com/competitions/playground-series-s4e9)
+- **Rows:** 1,88,533  
+- **Columns:** 12 features + target variable (Selling Price)
 
 **Features:**
 - Car Brand / Name  
