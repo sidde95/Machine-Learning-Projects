@@ -70,7 +70,7 @@ if st.button("🔍 Predict Car Price"):
         # Predict price
         predicted_price = model.predict(processed_input)[0]
 
-        st.success(f"💰 **Estimated Car Price: ₹ {predicted_price:,.2f}**")
+        st.success(f"💰 **Estimated Car Price: $ {predicted_price:,.2f}**")
         st.balloons()
 
     except Exception as e:
