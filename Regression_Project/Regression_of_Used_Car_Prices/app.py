@@ -26,15 +26,15 @@ st.markdown("### Enter the car details below to predict its estimated market val
 col1, col2 = st.columns(2)
 
 with col1:
-    brand = st.text_input("Car Brand", placeholder="e.g., Toyota, Maruti, BMW")
+    brand = st.selectbox("Car Brand", ['MINI', 'Lincoln', 'Chevrolet', 'Genesis', 'Mercedes-Benz', 'Audi', 'BMW', 'Cadillac', 'Land', 'GMC', 'Toyota', 'Hyundai', 'Ford', 'Volvo', 'Volkswagen', 'Hummer', 'Alfa', 'INFINITI', 'Jeep', 'Porsche', 'Honda', 'Dodge', 'Nissan', 'Jaguar', 'Kia', 'Mitsubishi', 'Rolls-Royce', 'Pontiac', 'Saturn', 'Lexus', 'Bentley', 'Mazda', 'Subaru', 'Ferrari', 'Maserati', 'Aston', 'Buick', 'Acura', 'Lamborghini', 'Chrysler', 'RAM', 'McLaren', 'Lucid', 'Lotus', 'Scion', 'smart', 'Tesla', 'Plymouth', 'Suzuki', 'FIAT', 'Rivian', 'Mercury', 'Saab', 'Polestar', 'Maybach', 'Karma'])
     model_year = st.number_input("Model Year", min_value=1990, max_value=2025, value=2015)
     milage = st.number_input("Mileage (in km/l)", min_value=0.0, max_value=50.0, value=15.0)
     fuel_type = st.selectbox("Fuel Type", ['Gasoline', 'Hybrid', 'Diesel'])
 
 with col2:
     transmission = st.selectbox("Transmission Type", ["Manual", "Automatic"])
-    ext_col = st.text_input("Exterior Color", placeholder="e.g., White, Red, Black")
-    int_col = st.text_input("Interior Color", placeholder="e.g., Beige, Black, Grey")
+    ext_col = st.selectbox("Exterior Color", ['Yellow', 'Silver', 'Blue', 'Black', 'White', 'Green', 'Gray', 'Red', 'Beige', 'Orange', 'Brown'])
+    int_col = st.selectbox("Interior Color", ['Gray', 'Beige', 'Black', 'Unknown', 'Blue', 'Red', 'Brown', 'Orange', 'Silver', 'White'])
     accident = st.selectbox("Accident History", ["No", "Yes"])
 
 col3, col4 = st.columns(2)
